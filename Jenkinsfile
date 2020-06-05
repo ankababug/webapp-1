@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "ankababu/WebApp"
+    registry = "ankababu/webapp"
     registryCredential = 'docker-hub'
     dockerImage = ''
   }
